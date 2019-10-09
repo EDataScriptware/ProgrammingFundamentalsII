@@ -1,0 +1,11 @@
+public int fib(int n) {
+    if(n <= 1) {
+        return n;
+    } else {
+        return fib(n - 1) + fib(n - 2);
+    }
+}
+
+This is considered a recursion example. Why?
+
+The fib method will be kept ongoing if and only if it is greater than or equal to one or else it will return the number n that is else than zero. It's closely similar to iteration but it exactly isn't iteration in fact it is not a loop and it is handled inside a method in a different class. This could be done through iteration although some would say that the logic is flawed or missing a piece of information. For loop is typically best used to substitute a recursion. 
